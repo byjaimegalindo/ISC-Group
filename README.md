@@ -40,3 +40,15 @@ Estos hashes identifican artefactos aprobados del handoff del 2026-10-16; no atr
 - [Plan de implementación](docs/PLAN_IMPLEMENTACION.md)
 
 El registro de un commit en GitHub no acredita la instalación en Wix. Ningún dato de demostración sustituye registros reales. Alcance actual: sin chat. Cambios futuros en ramas pequeñas con checkpoint, pruebas, rollback y estados objetivos.
+
+
+## Estado CP02 · v0.2.0 (19 de octubre de 2026)
+
+La integración NP3/NP5 y el backend ya están versionados en la rama `feature/isc-cp02-velo-wiring-20261019`. **NO se ha instalado código en el editor Wix** y este trabajo no se ha fusionado en `main`. Consulte [checkpoint CP02](docs/checkpoints/2026-10-19_CP02_v0.2.0.md) y [guía de instalación Wix](wix/README_WIRING.md).
+
+- Código de página: [`wix/pages/NP3-Mentoring.js`](wix/pages/NP3-Mentoring.js)
+- Popup: [`wix/lightboxes/NP5-Profile-Details.js`](wix/lightboxes/NP5-Profile-Details.js)
+- Backend privado: [`backend/iscMentoring.web.js`](backend/iscMentoring.web.js)
+- Video NP4: **SIN CAMBIOS**; snapshot de referencia.
+- Pruebas locales: 16 backend + 12 bridge; QA end-to-end **PENDIENTE**.
+- El formulario HTML congelado todavía no implementa precarga visual `SET_MY_PROFILE`; se requiere permiso para un listener JS invisible.
