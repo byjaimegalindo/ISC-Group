@@ -1,0 +1,19 @@
+# No publicar datos de clientes ni miembros en el repositorio PUBLICO
+.env
+.env.*
+!.env.example
+node_modules/
+.wix/
+.DS_Store
+*.log
+*secret*
+*credentials*
+backups-private/
+private/
+exports/
+data-dumps/
+*.sqlite
+*.db
+# No exportar datos de Members ni datos del CRM
+*MembersData*.json
+*members-export*
