@@ -1,0 +1,28 @@
+﻿collection,fieldKey,suggestedType,notes
+MentoringProfiles,memberId,Text,"1:1 Wix Members, server-derived"
+MentoringProfiles,firstName,Text,Required
+MentoringProfiles,lastName,Text,Required
+MentoringProfiles,company,Text,Required
+MentoringProfiles,jobTitle,Text,Required
+MentoringProfiles,email,Text,Privacy controlled
+MentoringProfiles,visibility,Text,public/private
+MentoringProfiles,roles,Tags/List,"Mentor,Mentee"
+MentoringProfiles,types,Tags/List,"Traditional,Reverse,Peer-to-Peer"
+MentoringProfiles,photoUrl,Text/Image,Approved HTTPS or Wix Media
+MentoringProfiles,mentorCareerLevel,Tags/List,Exact HTML options
+MentoringProfiles,mentorFunction,Tags/List,Exact HTML options
+MentoringProfiles,mentorArea,Tags/List,Exact HTML options
+MentoringProfiles,mentorBio,Long Text,Max 300
+MentoringProfiles,menteeCareerLevel,Tags/List,Exact HTML options
+MentoringProfiles,menteeFunction,Tags/List,Exact HTML options
+MentoringProfiles,menteeArea,Tags/List,Exact HTML options
+MentoringProfiles,menteeBio,Long Text,Max 300
+MentoringProfiles,isActive,Boolean,Only active public are directory-eligible
+MentoringFeedback,memberId,Text,Authenticated author
+MentoringFeedback,overall,Long Text,Overall feedback
+MentoringFeedback,positive,Long Text,Positive feedback
+MentoringFeedback,improvements,Long Text,Improvements feedback
+MentoringFeedback,status,Text,new/reviewed
+MentoringConnections,requesterMemberId,Text,"Future phase, no chat"
+MentoringConnections,recipientMemberId,Text,"Future phase, no chat"
+MentoringConnections,status,Text,pending/accepted/declined
