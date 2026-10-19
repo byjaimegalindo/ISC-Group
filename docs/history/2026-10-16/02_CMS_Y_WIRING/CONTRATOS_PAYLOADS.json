@@ -1,0 +1,61 @@
+{
+  "warning": "Ejemplos de payloads, NO miembros reales; frontends BLOQUEADOS.",
+  "mainIframeToWixSource": "ISC_MENTORING",
+  "mainWixToIframeSource": "ISC_MENTORING_WIX",
+  "mainToWix": [
+    "READY",
+    "HEIGHT",
+    "OPEN_VIDEO",
+    "PROFILE_SAVE_REQUEST",
+    "FEEDBACK_SAVE_REQUEST",
+    "OPEN_PROFILE"
+  ],
+  "wixToMain": [
+    "PING",
+    "SET_VIDEOS",
+    "SET_MEMBERS",
+    "PROFILE_OPEN_ACK",
+    "PROFILE_OPEN_FAILED",
+    "SAVE_RESULT"
+  ],
+  "profileIframeToWixSource": "ISC_PROFILE_HTML",
+  "profileWixToIframeSource": "ISC_PROFILE_WIX",
+  "popupToWix": [
+    "READY",
+    "HEIGHT",
+    "CONTACT",
+    "CLOSE"
+  ],
+  "wixToPopup": [
+    "SET_PROFILE"
+  ],
+  "popupSetProfileShape": {
+    "id": "member-id",
+    "firstName": "",
+    "lastName": "",
+    "company": "",
+    "jobTitle": "",
+    "email": "",
+    "photo": "https://example.test/image.jpg",
+    "roles": [
+      "Mentor",
+      "Mentee"
+    ],
+    "types": [
+      "Traditional",
+      "Peer-to-Peer"
+    ],
+    "mentor": {
+      "careerLevel": [],
+      "function": [],
+      "area": [],
+      "bio": ""
+    },
+    "mentee": {
+      "careerLevel": [],
+      "function": [],
+      "area": [],
+      "bio": ""
+    }
+  }
+}
